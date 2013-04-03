@@ -1,10 +1,11 @@
+
 <article class="unit-article layout-post">
 	<div class="unit-inner unit-article-inner">
 		<div class="content">
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">{{ page.title }}</h1>
+						<h1 class="h2 entry-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
@@ -40,10 +41,10 @@
 							<li><div class="twitter-follow"><a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a></div></li>
 						</ul>
 					</div>
-					
+					<div class="comment">
 					{% include JB/comments %}
+					</div>
 				</div><!-- misc-content -->
-				
 			</div><!-- bd -->
 			<footer class="unit-foot">
 				<div class="unit-inner unit-foot-inner">

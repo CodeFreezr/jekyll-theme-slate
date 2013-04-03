@@ -1,9 +1,9 @@
 ---
-name : the-minimum
-website : http://studiomohawk.github.com/jekyll-bootstrap/
-git_url : git://github.com/jekyllbootstrap/theme-the-minimum.git
-source_url : https://github.com/jekyllbootstrap/theme-the-minimum
+name : slate
+website : https://github.com/boxersb/jekyll-theme-slate
+git_url : git://github.com/boxersb/jekyll-theme-slate.git
+source_url : https://github.com/boxersb/jekyll-theme-slate
 author:
-  name : Yuya Saito
-  email : cssradar@gmail.com
-  website : http://css.studiomohawk.com/
+  name : Kyoungtaek Koo
+  email : boxersb@gmail.com
+  website : http://boxersb.github.com/
